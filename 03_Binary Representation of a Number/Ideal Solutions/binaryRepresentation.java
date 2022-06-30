@@ -13,7 +13,7 @@ class Main{
 	//This function converts a number into its binary representation.
 	public static String binaryRepresentation(int n){
 		int[] arr = new int[32]; 
-		Arrays.fill(arr,0); //Filling the entire arrays with a default value of 0.
+		//Arrays.fill(arr,0); //Filling the entire arrays with a default value of 0.
 		int len = arr.length-1;
 		while(n > 0){
 			int temp = n % 2;
